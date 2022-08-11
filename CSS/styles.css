@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+	min-height: 10vh;
+	
+}
+body {
+    background-image: url(../ASSETS/pasto.jpg);
+    background-position: center center;
+    background-size:cover;
+    background-color: rgba(0, 0, 0, 0.493);
+    z-index: 1;
+    background-blend-mode: darken;
+    color: white;
+    font-size: larger;
+}
+
+
+main {
+	min-height: 82vh;
+}
+
+footer {
+background-color: black;
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	font-size: 2rem;
+    font-family:'Licorice', cursive;
+}
+h2, h5 {
+    font-family:'Licorice', cursive;
+    margin-top: 2rem;
+}
+h2, h3 {
+	text-align: center;
+	
+}
+/* Index */
+.div1 {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.presentacion{
+    color: white;
+    -webkit-text-stroke:.8px black;
+    font-family:cursive;
+    font-size: 1.3rem ;
+    width: 40rem;
+}
+.navbar {
+    background-color:transparent!important ;
+    font-family:'Licorice', cursive;
+}
+
+.nav-link {
+    font-size: x-large;
+    color: white!important;
+}
+
+.nav-link:hover {
+    color: rgb(0, 0, 0)!important;  
+}
+
+.active {
+    color: white!important;
+    border-bottom: 0.2rem solid white;
+}
+
+.active:hover {
+    color: rgb(7, 7, 7)!important;  
+    text-decoration: dashed;
+}
+
+.rowfooter {
+    text-align: center;
+}
+
+.footer {
+    
+    color: antiquewhite!important;
+    border-top:ridge antiquewhite;
+}
+
+.footericons {
+    text-decoration: none;
+}
+
+.logoTop {
+    max-height: 8rem;
+    padding: 0.5rem 2rem;
+}
+@media (max-width: 720px){
+    .logoTop {
+        transform: translateX(250px);
+    }
+}
+@media (max-width: 500px){
+    .logoTop {
+        transform: translateX(140px);
+    }
+}
+@media (max-width: 425px){
+    .logoTop {
+        transform: translateX(110px);
+    }
+}
+@media (max-width: 375px){
+    .logoTop {
+        transform: translateX(80px);
+    }
+}
+@media (max-width: 320px){
+    .logoTop {
+        transform: translateX(60px);
+    }
+}
+
+
+.navbar-collapse {
+    margin-right: 2rem;
+}
+
+.navbar-toggler {
+    color: white;
+    
+}
+.nav-link {
+    text-align: center;
+}
+.contacto {
+	width: 40rem;
+	
+	border-radius: 2rem;
+	margin-right: 8rem;
+}
+/* Courosel */
+
+.carousel {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+    
+}
+@media (min-width: 776px ){
+    .carousel {
+        width: 50rem;
+    }
+}
+
+
+/* ------- */
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+/* Imagen juguetes*/
+h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    background-image: url(../ASSETS/GatitoJuguete.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 35vh;
+    width: 100%;
+}
+.imagen-gatito {
+    display: flex;
+    justify-content: center;
+
+}
+
+/* Imagen farmacia*/
+h6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    background-image: url(../ASSETS/farmacia.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 35vh;
+    width: 100%;
+}
+/* Colores card */
+.card {
+    background-color: rgba(128, 128, 128, 0.39);
+}
+
+.Stock {
+    background-color: white;
+    border-radius: .5rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.card-img {
+    width: 100%;
+    height: 20rem;
+}
+
+.card-body{
+    width: 100%;
+    height: 35rem;
+    
+}
+.contactos {
+    background-color: rgba(128, 128, 128, 0.363);
+    
+}
+
+/* Botn Carrito */
+.car-button{
+	text-decoration: none;
+	padding-left: 1rem;
+	height: 60px;
+	width: 60px;
+	border-radius: 100%;
+	background-color: #459443;
+	box-shadow: 0px 3px 12px rgba(0,0,0,0.2);
+	position: fixed;
+	bottom: 90px;
+	right: 30px;	
+}
+@media (max-width: 580px){
+    .car-button {
+        bottom: 140px;
+
+    }
+}
+.oculto{
+	display: none;
+}
+.card-img{
+	width: 100%;
+}
+.footer-card-text{
+	margin: 0;
+	color: white;
+	text-align: center;
+}
+
+/* Esteban contacto*/
+
+.mapText p {
+    min-width: 10vw;
+}
+
+.map-responsive{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+
+}
+
+.map-responsive iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+
+}
+
+.row {
+    margin-right: 0!important;
+    margin-left: 0!important;
+} 
+
+.carrito-tabla {
+    background-color: rgba(128, 128, 128, 0.308);
+}
+@media (max-width: 425px){
+    .carrito-tabla{
+        font-size: .7rem;
+        text-align: center;
+    }
+    .boton-comprar {
+        font-size: .8rem;
+    }
+}
+@media (max-width: 375px){
+    .carrito-tabla{
+        font-size: .6rem;
+        text-align: center;
+    }
+}
+@media (max-width: 320px){
+    .carrito-tabla{
+        font-size: .5rem;
+        text-align: center;
+    }
+}
